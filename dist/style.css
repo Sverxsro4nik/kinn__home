@@ -8,6 +8,16 @@
   src: url("./dist/font/Roboto-Bold.ttf");
   font-weight: 700;
 }
+@font-face {
+  font-family: "Jost";
+  src: url("./dist/font/Jost-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("./dist/font/Jost-Regular.ttf");
+  font-weight: 400;
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +28,7 @@
   width: 90vw;
   max-width: 1440px;
   margin: 0 auto;
+  font-family: "Roboro", sans-serif;
 }
 
 section {
@@ -57,6 +68,7 @@ section {
   text-transform: uppercase;
   font-weight: bold;
   font-family: "Roboto";
+  align-items: center;
 }
 .main-header .header-nav a {
   display: inline-block;
@@ -65,10 +77,10 @@ section {
   width: 80px;
   background-image: url("data:image/svg+xml,%3Csvg width='10' height='8' viewBox='0 0 10 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.00059 0L4.99824 5.3336L1 0.00559998L0 1.3384L4.99882 8L10 1.3336L9.00059 0Z' fill='black'/%3E%3C/svg%3E%0A");
   background-repeat: no-repeat;
-  background-position: 100% 5%;
+  background-position: 100% 20%;
 }
 .main-header .header-nav a:first-of-type {
-  background-position: 63% 5%;
+  background-position: 63% 20%;
 }
 .main-header .logo {
   width: 90px;
@@ -203,4 +215,71 @@ section {
 .products__list-item figcaption {
   margin-top: 16px;
   font-size: 16px;
+}
+
+.essentials__text {
+  background-image: url("./img/essentialsBg.png");
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  color: #56593D;
+  padding-top: 62px;
+}
+.essentials__text p {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.essentials__text h3 {
+  font-size: 50px;
+  line-height: 60.5px;
+  padding: 0 118px;
+  padding-top: 11px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.about-work {
+  margin-top: 42px;
+}
+.about-work__element {
+  display: flex;
+  padding: 65px 32px;
+  gap: 32px;
+}
+.about-work__element:last-of-type {
+  margin-top: 24px;
+}
+.about-work__element:last-of-type img {
+  order: 2;
+}
+.about-work__element:last-of-type__text {
+  order: 1;
+}
+.about-work__element__text {
+  padding-left: 87px;
+  padding-right: 87px;
+  padding-top: 63px;
+  text-align: center;
+  color: #56593D;
+}
+.about-work__element__text h4 {
+  font-size: 29px;
+  font-weight: normal;
+}
+.about-work__element__text .line {
+  width: 40px;
+  height: 1px;
+  background-color: #717353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 32px 0;
+  margin-left: 45%;
+}
+.about-work__element__text p {
+  font-size: 20px;
+  line-height: 32.4px;
+  font-family: "Jost";
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */
