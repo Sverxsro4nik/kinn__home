@@ -318,4 +318,21 @@ section {
   text-transform: uppercase;
   padding: 2px 25px;
   font-size: 15px;
+}
+
+.moments {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.moments h3 {
+  font-size: 25px;
+}
+.moments__gallery {
+  display: flex;
+  margin-top: 39px;
+  gap: 8px;
+}
+.moments__gallery img {
+  width: 310px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
