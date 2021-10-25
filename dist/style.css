@@ -1,21 +1,21 @@
 @font-face {
   font-family: "Roboto";
-  src: url("./dist/font/Roboto-Regular.ttf");
+  src: url("./font/Roboto-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("./dist/font/Roboto-Bold.ttf");
+  src: url("./font/Roboto-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: "Jost";
-  src: url("./dist/font/Jost-Bold.ttf");
+  src: url("./font/Jost-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: "Jost";
-  src: url("./dist/font/Jost-Regular.ttf");
+  src: url("./font/Jost-Regular.ttf");
   font-weight: 400;
 }
 * {
@@ -282,4 +282,40 @@ section {
   line-height: 32.4px;
   font-family: "Jost";
   font-weight: normal;
+}
+
+.newsletter {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 63px 0;
+  font-family: "Roboto", sans-serif;
+}
+.newsletter h3 {
+  font-weight: normal;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+.newsletter__form {
+  margin-top: 31px;
+  max-width: 500px;
+}
+.newsletter__form-input {
+  display: inline-block;
+  width: 340px;
+  border: none;
+  background-color: inherit;
+  border-bottom: 1px solid #56593D;
+  margin-right: 16px;
+}
+.newsletter__form-button {
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #56593D;
+  text-transform: uppercase;
+  padding: 2px 25px;
+  font-size: 15px;
 }/*# sourceMappingURL=style.css.map */
