@@ -146,7 +146,7 @@ section {
 }
 
 .first__screen {
-  background: url("./img/first__screen.png") center center no-repeat;
+  background: url("./img/first__screen.webp") center center no-repeat;
   background-size: cover;
   color: #56593D;
   height: 700px;
@@ -230,7 +230,7 @@ section {
 }
 
 .essentials__text {
-  background-image: url("./img/essentialsBg.png");
+  background-image: url("./img/essentialsBg.webp");
   background-size: cover;
   height: 700px;
   text-align: center;
